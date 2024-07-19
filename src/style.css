@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family:E400 ;
+    src: url(../public/fonts/Exo2/Exo2-Regular.ttf);
+}
+
+@font-face {
+    font-family:E600 ;
+    src: url(../public/fonts/Exo2/Exo2-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family:P400 ;
+    src: url(../public/fonts/PTSans/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:P700 ;
+    src: url(../public/fonts/PTSans/PTSans-Bold.ttf);
+}
+
+
+.custom-container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+.shape{
+    clip-path: polygon(0 0, 40% 0, 71% 100%, 0% 100%);
+}
