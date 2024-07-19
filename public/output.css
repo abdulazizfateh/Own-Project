@@ -1886,6 +1886,9 @@ video {
 .align-super {
   vertical-align: super;
 }
+.font-\[\'E600\'\] {
+  font-family: 'E600';
+}
 .font-\[E400\] {
   font-family: E400;
 }
@@ -1898,8 +1901,11 @@ video {
 .font-\[P700\] {
   font-family: P700;
 }
-.font-\[\'E600\'\] {
-  font-family: 'E600';
+.font-p400 {
+  font-family: P400, sans-serif;
+}
+.font-e600 {
+  font-family: E600, sans-serif;
 }
 .text-\[12px\] {
   font-size: 12px;
