@@ -1898,6 +1898,9 @@ video {
 .font-\[P700\] {
   font-family: P700;
 }
+.font-\[\'E600\'\] {
+  font-family: 'E600';
+}
 .text-\[12px\] {
   font-size: 12px;
 }
