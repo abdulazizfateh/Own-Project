@@ -4,23 +4,23 @@
 
 
 @font-face {
-    font-family:E400 ;
+    font-family:'E400' ;
     src: url(../public/fonts/Exo2/Exo2-Regular.ttf);
 }
 
 @font-face {
-    font-family:E600 ;
+    font-family:'E600' ;
     src: url(../public/fonts/Exo2/Exo2-SemiBold.ttf);
 }
 
 
 @font-face {
-    font-family:P400 ;
+    font-family:'P400' ;
     src: url(../public/fonts/PTSans/PTSans-Regular.ttf);
 }
 
 @font-face {
-    font-family:P700 ;
+    font-family:'P700' ;
     src: url(../public/fonts/PTSans/PTSans-Bold.ttf);
 }
 
