@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="../src/style.css">
     <link rel="stylesheet" href="./fonts.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+
+            section {
+                padding-top: 5rem;
+                /* Example: if header height is 4rem */
+                margin-top: -5rem;
+                /* Adjust the margin to maintain spacing */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -33,11 +45,11 @@
                             <li><a class="font-e400 text-[12px] md:text-[15px] border-b-[0.5px] border-transparent active:border-[#f1fffe] transition-all pb-[5px]"
                                     href="#why">Почему с нами?</a></li>
                             <li><a class="font-e400 text-[12px] md:text-[15px] border-b-[0.5px] border-transparent active:border-[#f1fffe] transition-all pb-[5px]"
-                                    href="#">Работы</a></li>
+                                    href="#work">Работы</a></li>
                             <li><a class="font-e400 text-[12px] md:text-[15px] border-b-[0.5px] border-transparent active:border-[#f1fffe] transition-all pb-[5px]"
-                                    href="#">Поставка</a></li>
+                                    href="#supply">Поставка</a></li>
                             <li><a class="font-e400 text-[12px] md:text-[15px] border-b-[0.5px] border-transparent active:border-[#f1fffe]  transition-all pb-[5px]"
-                                    href="#">Контакты</a></li>
+                                    href="#call">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
@@ -238,7 +250,7 @@
                 </div>
             </div>
         </section>
-        <section class="pb-[30px] sm:pb-[45px] md:pb-[60px] lg:pb-[80px]">
+        <section id="work" class="pb-[30px] sm:pb-[45px] md:pb-[60px] lg:pb-[80px]">
             <div class="custom-container">
                 <div class="mb-[28px] sm:mb-[34px] md:mb-[44px] lg:mb-[56px]">
                     <div class="mb-[16px] md:mb-[24px] lg:mb-[32px]">
@@ -316,7 +328,7 @@
                 </div>
             </div>
         </section>
-        <section class="pb-[34px] md:mb-[54px] lg:mb-[62px]">
+        <section id="supply" class="pb-[34px] md:mb-[54px] lg:mb-[62px]">
             <div class="custom-container">
                 <div">
                     <div class="mb-[20px] sm:mb-[28px] md:mb-[34px] lg:mb-[42px] xl:mb-[48px]">
@@ -393,11 +405,11 @@
             </div>
         </section>
     </main>
-    <footer class="bg-[#0B7572]">
+    <footer id="call" class="bg-[#0B7572]">
         <div class="custom-container">
             <div class="pt-[20px] sm:pt-[35px] sm:pb-[20px] md:pt-[45px] md:pb-[25px] lg:pt-[60px] lg:pb-[30px]">
                 <div
-                    class="pb-[16px] sm:pb-[24px] lg:pb-[36px] xl:pb-[56px] sm:flex sm:items-start gap-[40px] sm:gap-[80px] md:gap-[120px] lg:gap-[150px] xl:gap-[220px] w-full">
+                    class="pb-[16px] sm:pb-[24px] sm:flex sm:items-start gap-[40px] sm:gap-[80px] md:gap-[120px] lg:gap-[150px] xl:gap-[220px] w-full">
                     <div class="flex items-center gap-[10px] md:gap-[12px] mb-[16px] sm:mb-0">
                         <a class="flex-none" href="index.html"><img
                                 class="w-[32px] h-[32px] sm:w-[36px] sm:h-[36px] md:w-[42px] md:h-[42px]"
@@ -452,8 +464,7 @@
                         <a href="#">
                             <div
                                 class="bg-[#FF9619] w-[100%] m-auto p-[6px] flex items-center justify-center gap-[14px]">
-                                <p
-                                    class="text-white text-[9px] md:text-[11px] lg:text-[13px] font-e400 leading-[150%]">
+                                <p class="text-white text-[9px] md:text-[11px] lg:text-[13px] font-e400 leading-[150%]">
                                     Персональная консультация</p>
                                 <img src="images/arrow.svg" alt="">
                             </div>
@@ -462,8 +473,8 @@
             </div>
             <div class="pb-[15px]">
                 <p class="tracking-widest w-[90%] m-auto text-center"><a
-                        class=" text-white text-[7px] md:text-[10px] lg:text-[12px] font-e400 leading-[150%]"
-                        href="#">© 1993–2021 Интернет-магазин «LOGO» — truck</a></p>
+                        class=" text-white text-[7px] md:text-[10px] lg:text-[12px] font-e400 leading-[150%]" href="#">©
+                        1993–2021 Интернет-магазин «LOGO» — truck</a></p>
             </div>
         </div>
         </div>
