@@ -1,20 +1,20 @@
 @font-face {
-    font-family:'E400';
-    src: url(../public/fonts/Exo2/Exo2-Regular.ttf);
+    font-family: 'E400';
+    src: url(./fonts/Exo2/Exo2-Regular.ttf);
 }
 
 @font-face {
     font-family:'E600';
-    src: url(../public/fonts/Exo2/Exo2-SemiBold.ttf);
+    src: url(./fonts/Exo2/Exo2-SemiBold.ttf);
 }
 
 
 @font-face {
     font-family:'P400';
-    src: url(../public/fonts/PTSans/PTSans-Regular.ttf);
+    src: url(/public/fonts/PTSans/PTSans-Regular.ttf);
 }
 
 @font-face {
     font-family:'P700';
-    src: url(../public/fonts/PTSans/PTSans-Bold.ttf);
+    src: url(./fonts/PTSans/PTSans-Bold.ttf);
 }
