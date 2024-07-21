@@ -1899,10 +1899,13 @@ video {
   font-family: P700;
 }
 .font-e600 {
-  font-family: E600;
+  font-family: E600, sans-serif;
 }
 .font-p400 {
-  font-family: P400;
+  font-family: P400, sans-serif;
+}
+.font-e400 {
+  font-family: E400, sans-serif;
 }
 .text-\[12px\] {
   font-size: 12px;
