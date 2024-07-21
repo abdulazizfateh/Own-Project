@@ -1907,6 +1907,9 @@ video {
 .font-e400 {
   font-family: E400, sans-serif;
 }
+.font-p700 {
+  font-family: P700, sans-serif;
+}
 .text-\[12px\] {
   font-size: 12px;
 }
